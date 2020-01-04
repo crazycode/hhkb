@@ -22,21 +22,55 @@ HHKB + YDKB 没有难看的突起，内置充电电池，超长待机（超过3�
 
 [YDKB 配置文档](HHKB_BLE.BIN)可以导入 YKDB 官网上的键位设置小工具作为参考，当前版本可使用链接直接打开： [分享链接](http://mrw.so/4OXqsg)
 
+Layer 0 （默认配列)：
+
+![Layer 0](layer0.png)
+
 Layer 说明：
 
 - 长按 Fn: 开启 Layer 1
 - 长按 ~ (右上角按键) 或 长按数字 1 : 开启 Layer 2，主要是一些操作
 - 长按 ⌘: 修饰键⌘ & 瞬时开启Layer 3, 这一层的按钮必须配合 ⌘
-- ~ + \ (右上角2个按键)： 切换到鼠标操作层
-- ~ + Delete （右侧2个按键）： 切换回 Layer 0
 
 配列简要说明：
 
-- ⌘ + Esc： 映射为Layer2的 ⌘+`，用于 Window Switcher
+- ⌘ + Esc： 映射为Layer3的 ⌘ + `，用于 Window Switcher
 - Fn + E: 输出当前键盘电量
 - ~ + Z: Lock Mode 休眠键盘，需要通过长按 F + J 唤醒，适合放入包内时使用
 - ~ + B: 切换连接的蓝牙设备
 - ~ + I: 切换内部 U盘
+
+Layer 1 (Fn 操作)：
+
+![Layer 1](layer1.png)
+
+Layer 2 (长按 ~ 或 长按数字 1 )：
+
+![Layer 2](layer2.png)
+
+Layer 3 (只用于 ⌘ + `)：
+
+![Layer 3](layer3.png)
+
+鼠标模拟层操作：
+
+- ~ + \ (右上角2个按键)： 切换到鼠标操作层
+- 长按 1 或 长按 ~ (右上角按键)： 切换 Layer 6，此时 hjkl 作为鼠标滚轮使用
+- Esc: 退出鼠标模拟
+
+Layer 5 鼠标操作层：
+
+![Layer 5](layer5.png)
+
+Layer 6 鼠标操作层：
+
+![Layer 6](layer6.png)
+
+灯状态：
+
+- LED1: Caps Lock
+- LED2: Layer 2
+- LED3: Layer 5
 
 ## Mac下刷机方法
 
@@ -55,28 +89,8 @@ Mac上操作需要按以下流程：
 
 如果在废纸篓里也删除后，还是提示空间不足，那么退出刷机模式然后再重新进刷机模式，再重新操作。
 
-## Layer 截图
+# 版本
 
-Layer 0:
-
-![Layer 0](layer0.png)
-
-Layer 1:
-
-![Layer 1](layer1.png)
-
-Layer 2:
-
-![Layer 2](layer2.png)
-
-Layer 3:
-
-![Layer 3](layer3.png)
-
-Layer 7 鼠标操作层:
-
-![Layer 7](layer7.png)
-
-## 版本
-
-- 2020/1/4 支持鼠标层：http://mrw.so/4P2ask
+- 2020/1/4 支持鼠标层：http://mrw.so/4WyKfp
+- 2020/1/4 使用layer5: http://mrw.so/4zg9WJ
+- 2020/1/5 优化layer5: http://mrw.so/4Wvz9T
