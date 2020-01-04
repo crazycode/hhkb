@@ -20,21 +20,21 @@ HHKB + YDKB 没有难看的突起，内置充电电池，超长待机（超过3�
 
 主控的官网上有很简单好用的键位映射编辑工具，编辑好之后也可以很简单地刷到主控里面，看官网中文文档就好，这里不细说了。
 
-[YDKB 配置文档](HHKB_BLE.BIN)可以导入 YKDB 官网上的键位设置小工具作为参考，当前版本可使用链接直接打开： [分享链接](http://mrw.so/5ihKpG)
+[YDKB 配置文档](HHKB_BLE.BIN)可以导入 YKDB 官网上的键位设置小工具作为参考，当前版本可使用链接直接打开： [分享链接](http://mrw.so/4GIcc0)
 
 Layer 说明：
 
 - 长按 Fn: 开启 Layer 1
 - 长按 ⌘: 修饰键⌘ & 瞬时开启Layer 2
-- 长按 Esc: 开启 Layer 3
+- 长按 Fn + Esc: 开启 Layer 3 (设置成 ESC 在 Layer 1 上切换到 Layer 3)
 
 配列简要说明：
 
 - ⌘ + Esc： 映射为Layer2的 ⌘+`，用于 Window Switcher
 - Fn + E: 输出当前键盘电量
-- Esc + Z: Lock Mode 休眠键盘，需要通过长按 F + J 唤醒，适合放入包内时使用
-- Esc + B: 切换连接的蓝牙设备
-- Esc + I: 切换内部 U盘
+- Fn + Esc + Z: Lock Mode 休眠键盘，需要通过长按 F + J 唤醒，适合放入包内时使用
+- Fn + Esc + B: 切换连接的蓝牙设备
+- Fn + Esc + I: 切换内部 U盘
 
 ## Mac下刷机方法
 
