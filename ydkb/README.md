@@ -20,21 +20,23 @@ HHKB + YDKB 没有难看的突起，内置充电电池，超长待机（超过3�
 
 主控的官网上有很简单好用的键位映射编辑工具，编辑好之后也可以很简单地刷到主控里面，看官网中文文档就好，这里不细说了。
 
-[YDKB 配置文档](HHKB_BLE.BIN)可以导入 YKDB 官网上的键位设置小工具作为参考，当前版本可使用链接直接打开： [分享链接](http://mrw.so/4GIcc0)
+[YDKB 配置文档](HHKB_BLE.BIN)可以导入 YKDB 官网上的键位设置小工具作为参考，当前版本可使用链接直接打开： [分享链接](http://mrw.so/4OXqsg)
 
 Layer 说明：
 
 - 长按 Fn: 开启 Layer 1
-- 长按 ⌘: 修饰键⌘ & 瞬时开启Layer 2
-- 长按 Fn + Esc: 开启 Layer 3 (设置成 ESC 在 Layer 1 上切换到 Layer 3)
+- 长按 ~ (右上角按键) 或 长按数字 1 : 开启 Layer 2，主要是一些操作
+- 长按 ⌘: 修饰键⌘ & 瞬时开启Layer 3, 这一层的按钮必须配合 ⌘
+- ~ + \ (右上角2个按键)： 切换到鼠标操作层
+- ~ + Delete （右侧2个按键）： 切换回 Layer 0
 
 配列简要说明：
 
 - ⌘ + Esc： 映射为Layer2的 ⌘+`，用于 Window Switcher
 - Fn + E: 输出当前键盘电量
-- Fn + Esc + Z: Lock Mode 休眠键盘，需要通过长按 F + J 唤醒，适合放入包内时使用
-- Fn + Esc + B: 切换连接的蓝牙设备
-- Fn + Esc + I: 切换内部 U盘
+- ~ + Z: Lock Mode 休眠键盘，需要通过长按 F + J 唤醒，适合放入包内时使用
+- ~ + B: 切换连接的蓝牙设备
+- ~ + I: 切换内部 U盘
 
 ## Mac下刷机方法
 
@@ -52,3 +54,29 @@ Mac上操作需要按以下流程：
 如果电脑上还有其他键盘可用，上面的1和2这两步，可直接使用Cmd+Opt+Delete永久删除文件。
 
 如果在废纸篓里也删除后，还是提示空间不足，那么退出刷机模式然后再重新进刷机模式，再重新操作。
+
+## Layer 截图
+
+Layer 0:
+
+![Layer 0](layer0.png)
+
+Layer 1:
+
+![Layer 1](layer1.png)
+
+Layer 2:
+
+![Layer 2](layer2.png)
+
+Layer 3:
+
+![Layer 3](layer3.png)
+
+Layer 7 鼠标操作层:
+
+![Layer 7](layer7.png)
+
+## 版本
+
+- 2020/1/4 支持鼠标层：http://mrw.so/4P2ask
