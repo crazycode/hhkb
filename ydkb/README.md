@@ -60,7 +60,7 @@ Layer 3 (只用于 ⌘ + `)：
 
 Layer 4 ( vi 模拟操作层)：
 
-![Layer 3](layer3.png)
+![Layer 4](layer4.png)
 
 鼠标模拟层操作：
 
